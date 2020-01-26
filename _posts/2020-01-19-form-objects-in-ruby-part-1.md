@@ -150,6 +150,14 @@ class OrderCreateForm
       return false unless valid?
       order.save
     end
+
+    def last_step?
+      true
+    end
+  end
+
+  def last_step?
+    false
   end
 
   private
@@ -214,7 +222,7 @@ class OrdersController < ApplicationController
   def create
     @order = "OrderCreateForm::Step#{order_params[:step]}".constantize.new(order_params)
     if @order.save
-      if order_params[:step].to_i == 3
+      if @order.last_step?
         redirect_to orders_path, notice: 'Order created'
       else
         render :new
