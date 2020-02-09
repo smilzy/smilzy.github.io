@@ -12,7 +12,7 @@ classes: wide
 ---
 
 **Rethink your approach towards forms**
-<!-- ### Scratching the surface -->
+
 ### Standard Rails Form
 
 Building basic forms in Ruby is a straightforward task:
