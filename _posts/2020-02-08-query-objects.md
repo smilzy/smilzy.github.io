@@ -249,7 +249,7 @@ already existing scope, making a connection. This knowledge allows us to write
 scopes in Rails models like this:
 
 ```ruby
-scope :completed_or_failed, -> { OrdersQuery::CompletedOrFailed }
+scope :completed_or_failed, OrdersQuery::CompletedOrFailed
 ```
 
 I learned about this approach here: [*Delegating to Query Objects through ActiveRecord scopes*](http://craftingruby.com/posts/2015/06/29/query-objects-through-scopes.html)
