@@ -2,6 +2,7 @@
 title: Query Objects - Organize your ActiveRecord scopes
 header:
   image: /assets/images/shane-hauser-18dsFU_VpZI-unsplash-x1200.jpg
+  teaser: /assets/images/shane-hauser-18dsFU_VpZI-unsplash-teaser.jpg
 tags:
   - ruby
   - database

@@ -3,6 +3,7 @@ title: Splitting the monolith - Rails app architecture
 header:
   image: /assets/images/jose-magana-XxzA5BMl-40-unsplash-x1200.jpg
   caption: "Photo credit: [**josemagana**](https://unsplash.com/@josemagana)"
+  teaser: /assets/images/jose-magana-XxzA5BMl-40-unsplash-teaser.jpg
 tags:
   - ruby
   - architecture

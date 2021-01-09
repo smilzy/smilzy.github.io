@@ -3,6 +3,7 @@ title: Improve Rails development with dry-rb and callee
 header:
   image: /assets/images/alan-j-hendry-su3FE5qTEjw-unsplash-1200.jpg
   caption: "Photo credit: [**Alan J. Hendry**](https://unsplash.com/@imedianamibia){:target='_blank'}"
+  teaser: /assets/images/alan-j-hendry-su3FE5qTEjw-unsplash-teaser.jpg
 tags:
   - ruby
   - architecture
@@ -30,7 +31,7 @@ This is what they describe the toolset on their webpage:
 It wasn't until much later when we finally introduced *dry-rb* to our *DeliGoo* project at *ReasonApps*, and looking at it now - I regret we hadn't done that earlier. **It helped us improve readability, introduced tools that helped our team standardize approach to handling problems and writing code.** For example the process of creating a new class for saving an object to database in our project would always follow the same steps:
 
 * create a new class in *operations* folder with *_operation.rb* suffix,
-* its' public interface should consist of only one method - *call* - which would accept *keyword arguments* defined on top with *option* class method (*dry-initializer* and *callee*),
+* its' public interface should consist of only one method - **call** - which would accept *keyword arguments* defined on top with *option* class method (*dry-initializer* and *callee*),
 * require a form object (*dry-struct*, *dry-types*) and a contract for validating the form (*dry-validation*),
 * use functional programming approach to make sure each step is completed successfully and returns **Success()** object - or break code execution on failure and return **Failure()** object (*dry-monads*).
 
@@ -146,7 +147,7 @@ performance = PerformanceCalculator.call(employee: user, date: Date.yesterday)
 ```
 
 <!-- NOTE: Have or had decided? :P  -->
-When our team grew and every person was used to writing code in a little different manner we have decided to enforce some rules. We focused on separating responsibilities of classes and reorganizing our code into better structures which belong in adequate folders. **The way that *callee* made us construct classes appealed to us instantly and was very easy to adjust to.** Ability to specify types of parameters passed to classes found use in some parts of our application - and possibly skipped us some headaches.
+When our team grew and every person was used to writing code in a little different manner we have decided to enforce some rules. We focused on separating responsibilities of classes and reorganizing our code into better structures which belong in adequate folders. **The way that *callee* made us construct classes appealed to us instantly and was very easy to adjust to.** Ability to specify types of parameters passed to classes found use in some parts of our application - and possibly skipped us some headaches. If you need help figuring out how to make more advanced logic work - [*dry-rb* keeps their documentation well maintained](https://dry-rb.org/gems/dry-initializer/master/){:target="_blank"}.
 
 As of today - **I can't really imagine not using *callee* in my project** - it's so convenient that I have to recommend using it to everyone :)
 

@@ -3,6 +3,7 @@ title: Form Objects in Ruby - Dynamic nested fields (nested-form)
 header:
   image: /assets/images/wim-arys-gDlpMyInsak-unsplash-1200x.jpg
   caption: "Photo credit: [**wimarys**](https://unsplash.com/@wimarys)"
+  teaser: /assets/images/wim-arys-gDlpMyInsak-unsplash-teaser.jpg
 tags:
   - ruby
   - form objects

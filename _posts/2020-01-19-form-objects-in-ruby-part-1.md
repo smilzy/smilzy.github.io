@@ -3,6 +3,7 @@ title: Form Objects in Ruby - Multi-Step Wizard
 header:
   image: /assets/images/nazli-mozaffari-df2Vb3Iwe_4-unsplash-x1200.jpg
   caption: "Photo credit: [**Nazli Mozaffari**](https://unsplash.com/@mzfn)"
+  teaser: /assets/images/nazli-mozaffari-df2Vb3Iwe_4-unsplash-teaser.jpg
 tags:
   - ruby
   - form objects
