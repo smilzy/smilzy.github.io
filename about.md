@@ -1,9 +1,9 @@
 ---
 layout: home
-title: About me
+title: Whoami
 author_profile: true
 ---
-### Aleksander Woźniak, 25
+### Aleksander Woźniak, 26
 Hello, I'm a Software Engineer, Automatics and Robotics graduate hungry for
 knowledge. Passionate about technology and possibilities it creates.
 

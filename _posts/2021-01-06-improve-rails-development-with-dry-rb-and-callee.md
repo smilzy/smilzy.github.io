@@ -146,9 +146,6 @@ end
 performance = PerformanceCalculator.call(employee: user, date: Date.yesterday)
 ```
 
-<!-- NOTE: Have or had decided? :P  -->
 When our team grew and every person was used to writing code in a little different manner we have decided to enforce some rules. We focused on separating responsibilities of classes and reorganizing our code into better structures which belong in adequate folders. **The way that *callee* made us construct classes appealed to us instantly and was very easy to adjust to.** Ability to specify types of parameters passed to classes found use in some parts of our application - and possibly skipped us some headaches. If you need help figuring out how to make more advanced logic work - [*dry-rb* keeps their documentation well maintained](https://dry-rb.org/gems/dry-initializer/master/){:target="_blank"}.
 
 As of today - **I can't really imagine not using *callee* in my project** - it's so convenient that I have to recommend using it to everyone :)
-
-<!-- TODO: Types / Struct - initializing forms, Validations - making validation rules, Monads - functional programming at it's finest (and easiest) -->
