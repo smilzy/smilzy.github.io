@@ -1,5 +1,5 @@
 ---
-title: Improve Rails development with dry-rb and callee
+title: dry-rb - Improve Rails development with dry-initializer and callee
 header:
   image: /assets/images/alan-j-hendry-su3FE5qTEjw-unsplash-1200.jpg
   caption: "Photo credit: [**Alan J. Hendry**](https://unsplash.com/@imedianamibia){:target='_blank'}"
@@ -8,7 +8,7 @@ tags:
   - ruby
   - architecture
   - design patterns
-  - dry
+  - dry-rb
   - functional programming
 classes: wide
 ---
@@ -147,5 +147,15 @@ performance = PerformanceCalculator.call(employee: user, date: Date.yesterday)
 ```
 
 When our team grew and every person was used to writing code in a little different manner we have decided to enforce some rules. We focused on separating responsibilities of classes and reorganizing our code into better structures which belong in adequate folders. **The way that *callee* made us construct classes appealed to us instantly and was very easy to adjust to.** Ability to specify types of parameters passed to classes found use in some parts of our application - and possibly skipped us some headaches. If you need help figuring out how to make more advanced logic work - [*dry-rb* keeps their documentation well maintained](https://dry-rb.org/gems/dry-initializer/master/){:target="_blank"}.
+
+In Gemfile:
+```ruby
+# dry-rb
+gem 'dry-initializer'
+# or
+gem 'callee' # it includes dry-initializer as a dependency
+```
+*And that's all you need to start*
+{: style="color:gray; font-size: 80%; text-align: center;"}
 
 As of today - **I can't really imagine not using *callee* in my project** - it's so convenient that I have to recommend using it to everyone :)
