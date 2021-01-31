@@ -3,6 +3,7 @@ title: dry-rb - Improve Rails operation flow with monads
 header:
   image: /assets/images/benjamin-voros-hfueW9tLWtc-unsplash-1200.jpg
   teaser: /assets/images/benjamin-voros-hfueW9tLWtc-unsplash-teaser.jpg
+  caption: "Photo credit: [**Benjamin Voros**](https://unsplash.com/@vorosbenisop)"
 tags:
   - ruby
   - architecture
